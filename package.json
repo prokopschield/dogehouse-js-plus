@@ -1,34 +1,34 @@
 {
-  "name": "dogehouse-js-plus",
-  "version": "0.1.5",
-  "description": "Client-side implementation of DogeHouse API",
-  "main": "lib/index",
-  "directories": {
-    "lib": "lib"
-  },
-  "dependencies": {
-    "doge-utils": "^0.0.2",
-    "isomorphic-ws": "^4.0.1",
-    "reconnecting-websocket": "^4.4.0",
-    "tslib": "^2.1.0",
-    "uuid": "^8.3.2",
-    "ws": "^7.4.4"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "test": "node lib/index"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/prokopschield/dogehouse-js-plus.git"
-  },
-  "keywords": [
-    "DogeHouse"
-  ],
-  "author": "DogeGarden",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/prokopschield/dogehouse-js-plus/issues"
-  },
-  "homepage": "https://github.com/prokopschield/dogehouse-js-plus#readme"
+	"name": "dogehouse-js-plus",
+	"version": "0.1.5",
+	"description": "Client-side implementation of DogeHouse API",
+	"main": "lib/index",
+	"directories": {
+		"lib": "lib"
+	},
+	"dependencies": {
+		"doge-utils": "^0.0.2",
+		"isomorphic-ws": "^4.0.1",
+		"reconnecting-websocket": "^4.4.0",
+		"tslib": "^2.1.0",
+		"uuid": "^8.3.2",
+		"ws": "^7.4.4"
+	},
+	"devDependencies": {},
+	"scripts": {
+		"test": "node lib/index"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/prokopschield/dogehouse-js-plus.git"
+	},
+	"keywords": [
+		"DogeHouse"
+	],
+	"author": "DogeGarden",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/prokopschield/dogehouse-js-plus/issues"
+	},
+	"homepage": "https://github.com/prokopschield/dogehouse-js-plus#readme"
 }
