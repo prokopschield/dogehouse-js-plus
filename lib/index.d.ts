@@ -1,2 +1,22 @@
 export * from 'doge-utils';
 export * from './dogehouse-js/src/index';
+export const Client: typeof import("./dogehouse.js/src/Client");
+export const EVENT: {
+    READY: string;
+    CONNECTION_TAKEN: string;
+    SOCKET_MESSAGE: string;
+    SOCKET_MESSAGE_PONG: string;
+    NEW_CHAT_MESSAGE: string;
+    MOD_CHANGED: string;
+    USER_JOINED_ROOM: string;
+    USER_LEFT_ROOM: string;
+    BOT_JOINED_ROOM: string;
+    HAND_RAISED: string;
+    WEBRTC_VOIC_OPTS_REVIEVED: string;
+    IMPORT_HOOK_FAILED: string;
+    IMPORT_HOOK_SUCCESS: string;
+    NEW_TRANSPORT_CREATED: string;
+    TELEMETRY_INITIALIZED: string;
+    TELEMETRY_DATA_TRANSMITTED: string;
+};
+export const utils: typeof import("doge-utils");
