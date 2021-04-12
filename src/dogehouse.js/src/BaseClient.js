@@ -77,6 +77,7 @@ class BaseClient extends EventEmitter{
 	registerHooks(dir) {
 		return new Promise(async (resolve, _reject) => {
 			fs.readdir(dir, async (err, files) => {
+				if (!files) return;
 				for (const f of files) {
 					let hook;
 					const hk = require(path.resolve(dir, f));

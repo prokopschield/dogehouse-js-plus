@@ -1,7 +1,7 @@
 {
 	"name": "dogehouse-js-plus",
 	"description": "Client-side implementation of DogeHouse API",
-	"version": "0.1.6",
+	"version": "0.1.7",
 	"main": "lib/index",
 	"scripts": {
 		"test": "node lib/index"
