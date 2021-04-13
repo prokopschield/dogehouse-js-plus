@@ -8,8 +8,7 @@
 	},
 	"bundleDependencies": false,
 	"dependencies": {
-		"antiangular": "^0.0.12",
-		"doge-utils": ">=0.0.3",
+		"doge-utils": ">=0.0.9",
 		"isomorphic-ws": "^4.0.1",
 		"reconnecting-websocket": "^4.4.0",
 		"socket.io-client": "^4.0.0",
